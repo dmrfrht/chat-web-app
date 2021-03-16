@@ -6,7 +6,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../template/css/style.css">
   <title>Document</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
   <section class="users">
     <header>
       <div class="content">
-        <img src="images/image.jpg" alt="">
+        <img src="../template/images/image.jpg" alt="">
         <div class="details">
           <span>Ferhat Demir</span>
           <p>Şimdi aktif</p>
@@ -30,7 +30,7 @@
     <div class="users-list">
       <a href="#">
         <div class="content">
-          <img src="images/image.jpg" alt="">
+          <img src="../template/images/image.jpg" alt="">
           <div class="details">
             <span>Ferhat Demir</span>
             <p>This is test message</p>
@@ -41,7 +41,7 @@
 
       <a href="#">
         <div class="content">
-          <img src="images/image.jpg" alt="">
+          <img src="../template/images/image.jpg" alt="">
           <div class="details">
             <span>Ferhat Demir</span>
             <p>This is test message</p>
@@ -55,6 +55,6 @@
   </section>
 </div>
 
-<script src="js/users.js"></script>
+<script src="../template/js/users.js"></script>
 </body>
 </html>
