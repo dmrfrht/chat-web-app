@@ -1,28 +1,18 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-  <link rel="stylesheet" href="../template/css/style.css">
-  <title>Document</title>
-</head>
+<?php include_once 'includes/header.php' ?>
 <body>
 <div class="wrapper">
   <section class="form login">
     <header>Sohbet Uygulaması</header>
 
     <form action="#" autocomplete="off">
-      <div class="error-txt">Bu bir hata mesajıdır!</div>
+      <div class="error-txt"></div>
       <div class="field input">
         <label>E-posta Adresiniz</label>
-        <input type="text" placeholder="E-posta adresinizi giriniz..">
+        <input type="text" placeholder="E-posta adresinizi giriniz.." name="email">
       </div>
       <div class="field input">
         <label>Şifreniz</label>
-        <input type="password" placeholder="Şifrenizi giriniz..">
+        <input type="password" placeholder="Şifrenizi giriniz.." name="password">
         <i class="fas fa-eye"></i>
       </div>
       <div class="field button">
@@ -34,5 +24,6 @@
 </div>
 
 <script src="../template/js/pass-show-hide.js"></script>
+<script src="../template/js/login.js"></script>
 </body>
 </html>
